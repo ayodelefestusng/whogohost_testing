@@ -11,3 +11,6 @@ def home_view(request):
 
 def contact_view(request):
     return HttpResponse("Welcome to Whogo, Contact Page!")
+
+def about_view(request):
+    return HttpResponse("Welcome to Whogo, About Page!")
